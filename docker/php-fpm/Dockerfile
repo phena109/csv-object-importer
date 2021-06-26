@@ -7,11 +7,15 @@ EXPOSE 9000
 RUN \
 apt-get update -y && \
 apt-get install -y \
+unzip \
 git
 
 # PHP
 COPY --from=mlocati/php-extension-installer /usr/bin/install-php-extensions /usr/local/bin/
-RUN install-php-extensions @composer
+RUN install-php-extensions \
+xdebug \
+zip \
+@composer
 
 # ENV
 RUN \
