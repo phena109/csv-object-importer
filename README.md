@@ -46,4 +46,4 @@ Self contain do not require installation of anything other than docker
 
 ### league/csv
 For CSV reading, much more reliable than parsing the CSV by the
-primitive `fgetcsv()` function
+primitive `fgetcsv()` function. It can be replaced with other similar libraries.
