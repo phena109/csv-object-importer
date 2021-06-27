@@ -33,10 +33,15 @@ Visit `localhost` with any browser
 
 # Reason for this approach
 
+## Github
+
+It is a source control and easy to share method. Nothing wrong with other
+approaches.
+
 ## PHP framework
 
-Using frameworks because it is more trustworthy and faster. Choosing
-Yii because I am more familiar with Yii framework.
+Using frameworks because it is more trustworthy and faster. Choosing Yii because
+I am more familiar with Yii framework.
 
 ## Docker
 
@@ -45,5 +50,6 @@ Self contain do not require installation of anything other than docker
 ## Libraries
 
 ### league/csv
+
 For CSV reading, much more reliable than parsing the CSV by the
 primitive `fgetcsv()` function. It can be replaced with other similar libraries.
