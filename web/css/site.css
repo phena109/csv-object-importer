@@ -2,3 +2,11 @@ html,
 body {
     height: 100%;
 }
+
+.credit {
+    color: green;
+}
+
+.debit {
+    color: red;
+}
